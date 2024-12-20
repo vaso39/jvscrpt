@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.letter {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3ecec;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
